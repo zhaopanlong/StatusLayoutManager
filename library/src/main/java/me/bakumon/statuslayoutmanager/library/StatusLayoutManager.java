@@ -424,6 +424,10 @@ public class StatusLayoutManager {
         return customLayout;
     }
 
+    public void setOnStatusChildClickListener(OnStatusChildClickListener listener){
+        this.onStatusChildClickListener = listener;
+    }
+
     public static final class Builder {
 
         private View contentLayout;
